@@ -1,138 +1,95 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            *{
-                margin: 0;
-            }
-            
-            .heading{
-                padding-top: 20px;
-                padding-left: 20px;
-                padding-bottom: 20px;
-                height:30%;
-                background-color: rgb(101, 138, 172);
-                color: white;
-                font-size: 60px;
-                
-            }
-            .nav{
-                padding: 3px;
-                display:flex;
-                justify-content:space-between;
-            }
-            .nav{
-                background-color: black;
-                color:white ;
-            }
-            .border{
-                padding:10px;
-                display: inline-block;
-                border: 1px solid black;
-            }
-            .buttoon:hover{
-                color:red;
-            }
-            .buttoon:active{
-                color:bisque;
-            }
-            
-            .buttoon{
-                color:white;
-            }
-            html, body {
-    max-width: 100%;
-    overflow-x:hidden;
-  
-}
-        </style>
+        <title>project1</title>
+        <link rel="stylesheet"  href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+        
 
     </head>
     <body>
-        <header class="head">
-            <div class="heading"> TECHNOVERT </div>
-            <nav class="nav">
-                <div>
-                    <a class="buttoon" href="#">HOME</a>
+        <header class="header">
+            <div class="company-name">TECHNOVERT </div>
+            <div class="container">
+                <nav class="nav"><!---->
+                    <div class="nav-buttons">HOME</div>
+                    <div class="nav-buttons">SERVICES</div>
+                    <div class="nav-buttons">CAREER</div>
+                    <div class="nav-buttons">CONTACT</div>
+                    </nav>
+                       
+                        
+                
+                    <img class="image" src="./blog-icon.png" alt="reload">
 
-                </div>
-                <div>
-                    <a class="buttoon" href="#">SERVICES</a>
-                    
-                </div>
-                <div>
-                    <a class="buttoon" href="#">CAREER</a>
-                    
-                </div>
-                <div>
-                    <a class="buttoon" href="#">CONTACT</a>
-                    
-                </div>
-                <img class="image" src="./blog-icon.png" alt="reload">
-            </nav>
+            </div>
+            
+        
 
         </header>
-        <main>
-            <br>
-            <div class="border">
-                <p>
-                    <h2>Note</h2>
-                <ul>
-                    <li>
-                        Technovert is now Microsoft Partner in Information Security Solutions.
+        <div class="main-body">
+            
+            <div class="box-border-black">
+                <div>
+                    <h4 class="box-heading">NEWS</h4>
+                <ul class="box-text-style" >
+                    <li class="text-elements">
+                        Technovert is now Microsoft Partner in Information Security solutions.
 
                     </li>
-                    <li>
+                    
+                    <li class="text-elements">
                         We deliver one of the largest book information stores in the world.
                         
                     </li>
-                    <li>
+            
+                    <li class="text-elements">
                         Our team delivered the first Windows 8 Metro style application for the Windows Phone group at Microsoft.
                         
                     </li>
-                    <li>
-                        Technovert partners with a strategic technology CTO group
+            
+                    <li class="text-elements">
+                        Technovert partners with a strategic techulogy CTO group
                         
                     </li>
                 </ul>
 
-                </p>
+            </div>
                 
                 
 
             </div>
-            <br>
-            <br>
+            
             <div>
-                <div style="font-size: 30px;">
+                <h6 style="font-size: 22px; padding-bottom: 10px;">
                     Welcome!
-                </div>
-                <br>
-                <div>What is Lorem Ipsum?
+                </h6>
+            
+                <div class="text-elements">What is Lorem Ipsum?
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 </div>
-<div>
+<div class="text-elements">
 Why do we use it?
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
 </div>
-<br>
-<div>
+
+<div class="text-elements">
 Where does it come from?
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
 </div>
-<br>
-<div>
+
+<div class="text-elements">
 Where can I get some?
 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
 </div>
-<br></div>
+</div>
 
 
-        </main>
-        <footer>
-
-        </footer>
+</div>
+       
     </body>
 </html>
